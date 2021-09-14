@@ -1,0 +1,87 @@
+/* pc */
+@media (min-width: 64em ){
+    
+}
+/* talest & mobile */
+@media (max-width:1023px){
+    .btn{
+        padding: 13px 16px;
+    }
+    .form-control{
+        padding: 15px;
+    }
+    #footer .socials-list{
+        font-size: 48px;
+    }
+    .socials-list{
+        margin: 0 8px;
+    }
+    #footer .copy-right a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+    .contac-infor{
+        line-height: 2;
+    }
+}
+/* talest */
+@media (min-width:  46.25em) and (max-width:63.9375em){
+    .contac-infor{
+        line-height: 2;
+    }
+}
+/* mobile */
+@media (max-width: 46.1875em){
+    .s-full-width{
+        width: 100%;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    .s-col-full{
+        width: 100%;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header .search-button{
+        display: none;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: white;
+        padding:15px 0px 15px 30px;
+    }
+    #nav li{
+        display: block;
+    }
+    #nav li:first-child{
+        display: inline-block;
+    }
+    #nav{
+        display: block;
+    }
+    #content .menber-item{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #content .image-name{
+        width: 60%;
+    }
+   
+    .contact-form{
+        margin-top: 32px;
+    }
+    
+}
+/* 
+PC:>=1024px
+table: >=740px & <1024px
+mobile : <740px
+ */
