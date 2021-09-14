@@ -4,11 +4,15 @@
 }
 /* talest & mobile */
 @media (max-width:1023px){
+    .contact-submit-btn{
+        font-size: 16px;
+    }
     .btn{
         padding: 13px 16px;
     }
     .form-control{
         padding: 15px;
+        font-size: 16px;
     }
     #footer .socials-list{
         font-size: 48px;
@@ -32,6 +36,7 @@
 }
 /* mobile */
 @media (max-width: 46.1875em){
+  
     .s-full-width{
         width: 100%;
     }
